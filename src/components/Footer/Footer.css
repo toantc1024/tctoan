@@ -1,0 +1,14 @@
+.footer > a {
+	display: flex;
+	justify-content: center;
+}
+
+.footer { 
+	background: #FFF7E9;
+	border: 1px solid #ffc7aaad;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}

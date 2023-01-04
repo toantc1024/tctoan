@@ -1,0 +1,27 @@
+nav {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	margin: 0;
+	z-index: 999999;
+	top: 0;
+	align-items: center;
+	background: #FFF7E9;
+	width: 100vw;
+}
+
+nav > a, nav > div > a {
+	color: black;
+	font-size: 1em;
+	margin: 10px;
+	border: 1px solid #F2DEBA;
+	padding: 8px;
+	cursor: pointer;
+	transition: all .25s linear;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}

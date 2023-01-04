@@ -1,0 +1,64 @@
+.info-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2em;
+	font-weight: 800;
+	color: rgb(255 255 255 / 90%);
+}
+
+.info-container > .emoji {
+	display: flex;
+	width: 125px;
+	height: 125px;
+	padding: 5px;
+	background: rgba(255,255,255,.4);
+	border: 1px solid rgba(255,255,255,.1);
+	border-radius: 50%;
+	font-size: 2.75em;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+	margin: 20px;
+}
+
+.emoji > div {
+	color: rgb(0 0 0 / 70%);
+	text-align: center;
+}
+
+.info-container > .status { 
+	text-align: center;
+	border: 1px solid rgba(255,255,255,.5);
+	padding: 5px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	.info-container{
+		font-size: 1.5em;
+	}
+	.info-container > .emoji {
+		display: flex;
+		width: 90px;
+		height: 90px;
+	}
+}
+
+.starword {
+	position: relative;
+	animation: myfirst .4s cubic-bezier(0.49, 0.01, 0.39, 0.59) 1s infinite alternate;
+}
+
+@keyframes myfirst {
+  from {
+  	top: 0px;
+  	transform: rotate(0deg);
+  } 
+  to {
+  	top: 20px;
+  	transform: rotate(45deg);
+  }
+}
