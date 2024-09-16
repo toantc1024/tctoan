@@ -5,6 +5,12 @@ export const project_data = [
     github: "https://github.com/toantc1024/Servlet_EmailList",
     info: "Sử dụng Servlet để tạo trang web cho phép người dùng nhập email và hiển thị danh sách email đã nhập. Sử dụng JSP để hiển thị trang web.",
   },
+  {
+    title: "Bài tập tuần 2 - EmailList",
+    demo: "https://deploy-wdmm.onrender.com/ch5_emailist",
+    github: "https://github.com/toantc1024/Ch05_EmailList",
+    info: "Sử dụng JSTL để hiển thị danh sách email đã nhập. Sử dụng JSP để hiển thị trang web.",
+  },
   // {
   //   title: 'Smart Brain',
   //   link: 'https://github.com/toantc1024/smartbrain',
