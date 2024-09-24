@@ -20,7 +20,7 @@ export const project_data = [
   },
   {
     title: "Chapter 06 - Exercise2",
-    demo: "https://deploy-wdmm.onrender.com/ch06_ex2_email",
+    demo: "https://deploy-wdmm.onrender.com/ch06_ex2_survey",
     info: "Sửa bài Survey, tạo thêm điều kiện cho JSTL ở thanks.jsp hiện thi contact via nếu user nhận mail",
     github:
       "https://github.com/toantc1024/Servlet-Java-SEM-I-24-25/tree/main/ch06_ex2_survey",
