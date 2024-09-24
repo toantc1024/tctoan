@@ -1,72 +1,71 @@
 .projects-title {
-	color: black;
-	font-size: 2em;
-	padding: 50px;
-	border: 1px solid #F2DEBA;
-	padding: 8px;
-	cursor: pointer;
-	transition: all .25s linear;
+  color: black;
+  font-size: 2em;
+  padding: 50px;
+  border: 1px solid #f2deba;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.25s linear;
 }
-.projects-wrapper{
-	height: 100vh;	overflow: scroll;
+.projects-wrapper {
+  height: auto;
+  overflow: scroll;
 }
 .projects {
-	height: 100vh;
-	overflow: hidden;
-	background: white;
+  height: auto;
+  overflow: hidden;
+  background: white;
 }
 
 .projects {
-	padding: 20px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 700px) {
-	.projects-title {
-		font-size: 1.5em;
-	}
+  .projects-title {
+    font-size: 1.5em;
+  }
 
-	.project > a {
-	font-size: .5em;
-	}
+  .project > a {
+    font-size: 0.5em;
+  }
 }
 
-
-.project{
-	margin: 20px;
-	border: 1px solid #F2DEBA;
-	display: grid;
-	flex-wrap: wrap;
-	padding: 5px;
+.project {
+  margin: 20px;
+  border: 1px solid #f2deba;
+  display: grid;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
 .project > a {
-	color: black;
-	font-size: 1em;
-	padding: 5px;
-	position: relative;
-	border: 1px solid #F2DEBA;
-	padding: 8px;
-	cursor: pointer;
-	transition: all .25s linear;
+  color: black;
+  font-size: 1em;
+  padding: 5px;
+  position: relative;
+  border: 1px solid #f2deba;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.25s linear;
 }
 .project > div {
-	font-size: 1em;
-	margin: 5px;
-	display: flex;
-	align-items: center;
+  font-size: 1em;
+  margin: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .image {
-	display: flex;
+  display: flex;
 }
 
 .project > .image > img {
-	width: 100%;
-	max-width: 250px;
-	height: auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
-
 .projects-title + .fixing {
-	position: fixed;
+  position: fixed;
 }
