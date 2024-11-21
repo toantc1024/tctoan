@@ -1,5 +1,6 @@
 import React from "react";
 import LaunchIcon from "@mui/icons-material/Launch";
+import ProjectCard from "../../ProjectCard";
 const Project = ({ data }) => {
   const { github, demo, info, title } = data;
   return (
